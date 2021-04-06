@@ -1,0 +1,39 @@
+***FRONT-END*** (FE)
+	-"FE Languages" live in the browser.
+	-Browser  receives HTML files from <Web Server>.
+	-HTML(STRUCTURED), CSS(LOOKS), Js(FUNCTIONS) files work together.
+	-FE dev apply the work of "translating" well-designed layouts --into--> real code.
+	-FE dev is an intermediate between designers and Back-End devs.
+	-Responsible for:
+			+possible interactions users may need to make with the (Web) page.
+			+be highly concious of
+				.WHO your user is
+				.HOW they will be interacting with the W.Page.
+			+working with HTML, CSS, Javascript.
+
+	---Fundamental Knowledge:
+		<*HTML*> "HyperText Makeup Language": document - define the semantic structure of a single W.Page.
+			"All the websites that we are looking at every day are all defined (described) as HTML."
+			+ Browsers' primary feature is to render(display) HTML documents.
+			+ When typing a URL into browser's address bar, the browser will SEND a REQUEST to this addr, and GET HTML back as a RESPONSE. Then display this HTML.
+			+ "Semantic structure"?
+				.HTML docs are written in a pattern whcih starts <taghere> and ends </taghere> with tags.
+				.Some tags and their meaning:
+					1. <html>...</html> - the HTML document as a whole
+
+					2. <head>...</head> - the header of the document, containing meta information (i.e. information about the document, not part of the document itself)
+
+					3. <title>...</title> - an example of one bit of meta information, the title of the page as displayed in your browser history, and the browser window title (or tab)
+
+					4. <body>...</body> - the body of the document itself, i.e. the whole of its content
+
+					5. <h1>...</h1>, <h2>...</h2> - a headline level 1, and level 2, containing the headline’s text. HTML defines heading levels 1-6, which should be enough to define the structure even of large documents.
+
+					6. <p>...</p> - a single paragraph, containing the paragraph’s text.
+
+					7. <ul>...</ul> - an unordered list (i.e. a list that uses bullet points, as opposed to, e.g., a numbered list)
+					
+					8. <li>...</li> - a single list item, must be contained in either a <ul> or <ol> tag
+		
+		<*CSS*>
+		<*JS*>
